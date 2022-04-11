@@ -1,0 +1,145 @@
+@charset "UTF-8";
+ body{
+    font-family: 'Poppins', sans-serif;
+ }
+.logo{
+    width: 150px;
+    padding: 2px 0px ;
+}
+h1{
+    font-size: 3.5em;
+    color: white;
+    text-shadow: rgb(0, 0, 0) 0.2em  0.1em 0.2em;
+}
+video{
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+.content{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
+}
+.capa{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    opacity: 0.5;
+    mix-blend-mode: overlay;
+}
+.iconos-redes{
+    width: 25px;
+    margin: 10px 5px;
+}
+.titucalen{
+    font-size: 4em;
+    color: white;
+    text-shadow: rgb(0, 0, 0) 0.2em  0.1em 0.2em;
+   
+}
+#nftt{
+    color: white;
+    text-shadow: rgb(0, 0, 0) 0.2em  0.1em 0.2em;
+}
+#calendario{
+    background-color: #02180f;
+    padding: 100PX 35px;
+    position: relative;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center center;
+}
+.fondo{
+    text-align: center;
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5),rgba(0, 0, 0, 0.692)), url(../img/fondo2.jpg);
+    padding: 100px 0px;
+    position: relative;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.fondo h1{
+    color: white;
+    text-shadow: rgb(0, 0, 0) 0.1em  0.1em 0.2em;
+    margin-top: 2%;
+}
+.banner-video{
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5),rgba(0, 0, 0, 0.692)), url(../img/video.jpg);
+    padding: 235PX 0px;
+    position: relative;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center center;
+}
+.banner-video img{
+    width: 80px;
+    height: 80px;
+    position: relative;
+}
+
+.banner-video h1{
+    font-size: 4em;
+    color: white;
+    text-shadow: rgb(0, 0, 0) 0.3em  0.1em 0.2em;
+    margin-top: 2%;
+}
+
+#bg-contactos{
+    position: relative;
+}
+#NFT{
+    min-height: 500px;
+    background-color: #02180f;
+    padding: 100PX 35px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center center;
+    position: relative;
+}
+#scontactos{
+    min-height: 500px;
+    background-color: #02180f;
+    padding: 100PX 35px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center center;
+    position: relative;
+}
+img{
+    margin-top: 5%;
+}
+#boton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    background-color: #1e292e;
+    padding: 10px 0px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.404);
+
+}
+
+footer #logofo{
+    width: 200px;
+    margin-bottom: 5px;
+
+}
